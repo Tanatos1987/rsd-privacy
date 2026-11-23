@@ -24,22 +24,23 @@
 
   <section id="bg">
   <h1>Политика за поверителност — Real Spy Detector (RSD)</h1>
-  <p class="date">Последна промяна: 14 ноември 2026 г.</p>
+  <p class="date">Последна промяна: 23 ноември 2026 г.</p>
   <p>Real Spy Detector („RSD“, „приложението“) е инструмент за техническа проверка на помещения за скрити камери, тракери и подслушвателни устройства. Тази политика обяснява какви данни използва приложението и къде отиват.</p>
 
   <h2>Накратко</h2>
   <p>RSD работи <strong>изцяло на устройството</strong>. Няма регистрация, реклами, аналитични инструменти или сървър на разработчика. Резултатите от сканирането не се изпращат никъде.</p>
 
   <h2>Какви данни се пазят и къде</h2>
-  <p>Историята на сканиранията, доверените устройства, познатите места, калибрирането, настройките и запазените от теб кадри от оптичния скенер се пазят <strong>само в частната памет на приложението</strong> на твоето устройство. Разработчикът не ги получава, не ги продава и не ги споделя. PDF докладът се създава на устройството и излиза от него само ако ти го споделиш.</p>
+  <p>Историята на сканиранията, доверените устройства, познатите места, калибрирането, настройките и запазените от теб кадри от оптичния скенер и AR изгледа се пазят <strong>само в частната памет на приложението</strong> на твоето устройство. За да разпознае Bluetooth тракер, след като той смени адреса си, RSD помни адресите на видените тракери около ден и после ги изтрива автоматично. Разработчикът не ги получава, не ги продава и не ги споделя. PDF докладът се създава на устройството и излиза от него само ако ти го споделиш.</p>
 
   <h2>Разрешения и защо са нужни</h2>
   <ul>
     <li><strong>Wi-Fi и мрежа</strong> — за сканиране на <em>локалната</em> ти мрежа (устройства, отворени портове, камери) и проверка на Wi-Fi защитата. Връзките са само към устройства в същата мрежа.</li>
     <li><strong>Bluetooth и местоположение</strong> — за откриване на Bluetooth тракери (AirTag, SmartTag, Tile и др.). Android изисква разрешение за местоположение, за да показва резултати от Bluetooth и Wi-Fi сканиране. RSD <strong>не определя и не записва</strong> местоположението ти.</li>
-    <li><strong>Камера</strong> — за търсене на отблясъци от обективи и инфрачервени светодиоди. Кадрите се анализират в паметта и не се записват, освен ако сам не натиснеш „Запази кадър“.</li>
-    <li><strong>Микрофон</strong> — за търсене на ултразвукови маяци (18–22 kHz). Звукът се анализира в паметта и не се записва.</li>
-    <li><strong>Сензори</strong> — магнитометър (EMF детектор), акселерометър и температурни сензори на телефона.</li>
+    <li><strong>Камера</strong> — за търсене на отблясъци от обективи и инфрачервени светодиоди. Също за AR изгледа на EMF детектора и за калибрирането на мястото на магнитометъра. Кадрите се анализират в паметта и не се записват, освен ако сам не натиснеш „Запази кадър“ или „Проверих: има нещо“.</li>
+    <li><strong>Микрофон</strong> — за търсене на ултразвукови маяци (18–22 kHz), за „Слушане на ултразвук“ (звукът се сваля в чуваемия обхват и се пуска на живо в слушалките или говорителя) и за проверката на говорителя в акустичния щит (около 2 секунди). Звукът се анализира в паметта и не се записва.</li>
+    <li><strong>Говорител и вибрация</strong> — акустичният щит пуска маскиращ шум и може да вибрира. Не се събират данни.</li>
+    <li><strong>Сензори</strong> — магнитометър (EMF детектор), акселерометър, жироскоп и сензор за завъртане (компенсация на движението) и температурни сензори на телефона.</li>
     <li><strong>Известия и услуга на преден план</strong> — „Защита в движение“ проверява за тракери на всеки няколко минути, докато е включена, и показва известие.</li>
   </ul>
 
@@ -69,22 +70,23 @@
 
   <section id="en">
   <h1>Privacy Policy — Real Spy Detector (RSD)</h1>
-  <p class="date">Last updated: 14 November 2026</p>
+  <p class="date">Last updated: 23 November 2026</p>
   <p>Real Spy Detector ("RSD", "the app") is a tool for technical sweeps of rooms for hidden cameras, trackers and listening devices. This policy explains what data the app uses and where it goes.</p>
 
   <h2>In short</h2>
   <p>RSD works <strong>entirely on your device</strong>. There is no account, no ads, no analytics and no developer server. Scan results are never sent anywhere.</p>
 
   <h2>What is stored and where</h2>
-  <p>Scan history, trusted devices, known places, calibration, settings and the optical-scanner frames you choose to save are kept <strong>only in the app's private storage</strong> on your device. The developer does not receive, sell or share them. The PDF report is created on the device and leaves it only if you share it.</p>
+  <p>Scan history, trusted devices, known places, calibration, settings and the optical-scanner and AR-view frames you choose to save are kept <strong>only in the app's private storage</strong> on your device. To recognise a Bluetooth tracker after it changes its address, RSD remembers the addresses of trackers it has seen for about a day and then deletes them automatically. The developer does not receive, sell or share them. The PDF report is created on the device and leaves it only if you share it.</p>
 
   <h2>Permissions and why they are needed</h2>
   <ul>
     <li><strong>Wi-Fi and network</strong> — to scan your <em>local</em> network (devices, open ports, cameras) and check the Wi-Fi security. Connections go only to devices on the same network.</li>
     <li><strong>Bluetooth and location</strong> — to find Bluetooth trackers (AirTag, SmartTag, Tile and others). Android requires the location permission to deliver Bluetooth and Wi-Fi scan results. RSD <strong>does not determine or store</strong> your location.</li>
-    <li><strong>Camera</strong> — to look for lens reflections and infrared LEDs. Frames are analysed in memory and not recorded unless you tap "Save frame".</li>
-    <li><strong>Microphone</strong> — to look for ultrasonic beacons (18–22 kHz). Audio is analysed in memory and not recorded.</li>
-    <li><strong>Sensors</strong> — the phone's magnetometer (EMF detector), accelerometer and temperature sensors.</li>
+    <li><strong>Camera</strong> — to look for lens reflections and infrared LEDs. Also for the AR view of the EMF detector and the magnetometer position calibration. Frames are analysed in memory and not recorded unless you tap "Save frame" or "I checked: found something".</li>
+    <li><strong>Microphone</strong> — to look for ultrasonic beacons (18–22 kHz), for "Listen to ultrasound" (the sound is shifted into the hearing range and played live to your headphones or speaker) and for the speaker check of the acoustic shield (about 2 seconds). Audio is analysed in memory and not recorded.</li>
+    <li><strong>Speaker and vibration</strong> — the acoustic shield plays masking noise and can vibrate. No data is collected.</li>
+    <li><strong>Sensors</strong> — the phone's magnetometer (EMF detector), accelerometer, gyroscope and rotation sensor (motion compensation) and temperature sensors.</li>
     <li><strong>Notifications and foreground service</strong> — "Travel guard" checks for trackers every few minutes while it is on and shows a notification.</li>
   </ul>
 
